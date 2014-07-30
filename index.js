@@ -31,7 +31,8 @@ FireworkReporter.prototype = {
 
       this.client.stdin.write(JSON.stringify(result) + '\n')
     }
-  }
+  },
+  finish: function() {}
 }
 
 var test_reporters = require('testem/lib/ci/test_reporters')
