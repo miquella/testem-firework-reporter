@@ -1,0 +1,19 @@
+{
+  "name": "testem-firework-reporter",
+  "version": "1.0.0",
+  "description": "Testem Reporter for Firework analytics tool",
+  "main": "index.js",
+  "author": "Mark Severson",
+  "license": "MIT",
+  "homepage": "https://github.com/miquella/testem-firework-reporter",
+  "bugs": {
+    "url": "https://github.com/miquella/testem-firework-reporter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miquella/testem-firework-reporter.git"
+  },
+  "peerDependencies": {
+    "testem": "0.3.22 - 0.6.17"
+  }
+}
