@@ -1,6 +1,6 @@
 {
   "name": "testem-firework-reporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Testem Reporter for Firework analytics tool",
   "main": "index.js",
   "author": "Mark Severson",
@@ -14,6 +14,6 @@
     "url": "git://github.com/miquella/testem-firework-reporter.git"
   },
   "peerDependencies": {
-    "testem": "0.3.22 - 0.6.17"
+    "testem": "0.3.22 - 0.6.18"
   }
 }
