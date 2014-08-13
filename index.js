@@ -1,6 +1,8 @@
 var spawn = require('child_process').spawn
 
 function FireworkReporter(opts){
+  this.total = 0
+  this.pass = 0
   var clientOpts = [], DB, URL
 
   if (DB = process.env.FIREWORK_REPORTER_DB)
@@ -14,6 +16,9 @@ function FireworkReporter(opts){
 }
 FireworkReporter.prototype = {
   report: function(prefix, data) {
+    this.total++
+    if (data.passed) this.pass++
+
     if (this.client) {
       var result = {
         test: data['name'],
