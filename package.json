@@ -1,6 +1,6 @@
 {
   "name": "testem-firework-reporter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Testem Reporter for Firework analytics tool",
   "main": "index.js",
   "author": "Mark Severson",
